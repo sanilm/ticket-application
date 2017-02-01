@@ -189,7 +189,7 @@ public class HelloWorldController {
 	public @ResponseBody String addticket(@RequestBody  TicketDetails login,Model model,HttpServletRequest request, HttpServletResponse response)
 	{
 		
-		
+		System.out.println("in add ticket");
 		System.out.println(login.getFunction());
 		System.out.println(login.getCategory());
 		System.out.println(login.getSub_category());
